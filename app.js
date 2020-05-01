@@ -6,6 +6,15 @@ const billValue = document.getElementById("billAmount")
   const tipCalculate = document.getElementById("submit")
   
   function tipCalculation() {
+      if (!billValue.value){
+          alert('Enter Your Bill Amount')
+          return;
+      }
+      if (!numberOfGuests.value){
+          alert('Please enter your guest')
+          return;
+      }
+      
       if (isNaN(billValue.value)) {
           alert("Please enter a valid number")
       }

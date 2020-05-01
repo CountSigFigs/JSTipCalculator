@@ -16,11 +16,32 @@ body{
 
 .form{
     position: absolute;
-    border: solid 2px pink;
     height: 450px;
     width: 350px;
     margin: 0 auto;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.formTitle{
+    color: #46418e;
+    font-size: 42px;
+    font-weight: bold;
 }
 
+.formLabel{
+    color: #46418e;
+    font-size: 18px;
+}
 
+#submit{
+    background-color: #46418e;
+    color: whitesmoke;
+    transition: all .2s ease-in-out;
+}
 
+#submit:hover{
+    background-color: #726f9b;
+    border-color: #726f9b;
+    transform: scale(1.1);
+}
