@@ -45,3 +45,16 @@ body{
     border-color: #726f9b;
     transform: scale(1.1);
 }
+
+
+#closeButton{
+    background-color: #46418e;
+    color: whitesmoke;
+    transition: all .2s ease-in-out;
+}
+
+#closeButton:hover{
+    background-color: #726f9b;
+    border-color: #726f9b;
+    transform: scale(1.1);
+}

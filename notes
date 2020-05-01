@@ -1,0 +1,9 @@
+if (isNaN(billValue.value)) {
+        tipDisplay.innerHTML = `Oops! Go back and make sure you entered 
+        only numbers for the bill value`
+        return;}
+if (isNaN(numberOfGuests.value)) {
+        tipDisplay.innerHTML = `Somethings not right. Go back and make sure you entered 
+        only numbers for the bill value`
+        return;
+    }
