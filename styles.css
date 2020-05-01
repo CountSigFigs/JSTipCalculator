@@ -7,3 +7,16 @@
     width: 100%
 }
 
+body{
+    margin: 0;
+}
+
+.form{
+    position: absolute;
+   
+}
+
+form{
+    background-color: aliceblue;
+    opacity: 0.9;
+}
