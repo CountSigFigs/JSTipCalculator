@@ -4,7 +4,10 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 100vh;
-    width: 100%
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body{
@@ -13,10 +16,11 @@ body{
 
 .form{
     position: absolute;
-   
+    border: solid 2px pink;
+    height: 450px;
+    width: 350px;
+    margin: 0 auto;
 }
 
-form{
-    background-color: aliceblue;
-    opacity: 0.9;
-}
+
+
